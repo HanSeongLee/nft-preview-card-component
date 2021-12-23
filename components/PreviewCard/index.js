@@ -14,7 +14,6 @@ const PreviewCard = ({
                 <img className={styles.cardImage}
                      src={thumbnailURL}
                      alt={title}
-                     loading={'lazy'}
                 />
             </a>
             <h2 className={styles.cardHeading}>
@@ -30,7 +29,6 @@ const PreviewCard = ({
                     <img className={styles.icon}
                          src={'/img/icon-ethereum.svg'}
                          alt={'ethereum'}
-                         loading={'lazy'}
                     />
                     {price} ETH
                 </span>
@@ -38,7 +36,6 @@ const PreviewCard = ({
                     <img className={styles.icon}
                          src={'/img/icon-clock.svg'}
                          alt={'clock'}
-                         loading={'lazy'}
                     />
                     {daysLeft} days left
                 </span>
@@ -50,7 +47,6 @@ const PreviewCard = ({
                 <img className={styles.avatar}
                      src={avatarURL}
                      alt={username}
-                     loading={'lazy'}
                 />
                 Creation of&nbsp;
                 <a className={styles.usernameText}
