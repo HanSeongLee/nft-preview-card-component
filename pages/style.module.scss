@@ -1,0 +1,20 @@
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  min-width: 350px;
+  min-height: 596px;
+  padding: 24px;
+
+  .attribution {
+    font-size: 11px; text-align: center;
+
+    a {
+      color: hsl(228, 45%, 44%);
+    }
+  }
+}

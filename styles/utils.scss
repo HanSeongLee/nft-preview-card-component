@@ -1,0 +1,11 @@
+@import '~include-media/dist/include-media';
+
+$breakpoints: (mobile: 375px, desktop: 1440px);
+
+$primary-blue: hsl(215, 51%, 70%);
+$primary-cyan: hsl(178, 100%, 50%);
+
+$neutral-card-bg: hsl(216, 50%, 16%);
+$neutral-line: hsl(215, 32%, 27%);
+
+$white: hsl(0, 0%, 100%);
