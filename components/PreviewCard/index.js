@@ -16,11 +16,11 @@ const PreviewCard = ({
                      alt={title}
                 />
             </a>
-            <h2 className={styles.cardHeading}>
+            <h1 className={styles.cardHeading}>
                 <a href={url}>
                     {title}
                 </a>
-            </h2>
+            </h1>
             <p className={styles.cardBody}>
                 {description}
             </p>
